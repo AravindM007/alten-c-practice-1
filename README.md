@@ -17,8 +17,9 @@ All modules shall have the main typical states that include: powerOnSequence, in
 ## inputManager, for [ Sandrina ]:
 - Extracting the latitude and longitude coordinates from the string.
 String example: $GPGGA,181908.00,3404.7041778,N,07044.3966270,W,4,13,1.00,495.144,M,29.200,M,0.10,0000*40
-See https://www.gpsworld.com/what-exactly-is-gps-nmea-data/
-See https://web.fe.up.pt/~ee95080/NMEA%20data.pdf
+See this GPS references:
+- https://www.gpsworld.com/what-exactly-is-gps-nmea-data/
+- https://web.fe.up.pt/~ee95080/NMEA%20data.pdf
 
 ## directionCalculationManger, for [ Francisco ]:
 - Calculate direction, for each coordinate, based on the previous coordinate.
